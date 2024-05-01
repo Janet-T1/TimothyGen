@@ -16,6 +16,12 @@ module.exports = {
         smalltext: ['Inter', 'sans-serif'],
         bigtext: ['Montserrat', 'sans-serif'],
       },
+      colors: {
+        'primary': '#273043',
+        'secondary': '#EFF6EE',
+        'teritary': '#9197AE',
+        'fourth': '#F02D3A'
+      },
     },
   },
   plugins: [],

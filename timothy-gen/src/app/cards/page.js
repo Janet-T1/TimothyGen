@@ -1,5 +1,5 @@
 // pages/index.js
-import Card from "../components/card";
+import Card from "../components/Card";
 import friends from "../../../public/images/friends.jpg";
 import events from "../../../public/images/events.jpg";
 import getInvolved from "../../../public/images/getinvolved.jpg";
@@ -29,7 +29,7 @@ const Page = () => {
 
   return (
     // renders the data using the card component. Found in the components folder,
-    <div className="flex gap-8 justify-center m-3 flex-col sm:flex-row">
+    <div className="flex gap-8 justify-center flex-col sm:flex-row">
       {data.map((item) => (
         <Card
           key={item.id}
