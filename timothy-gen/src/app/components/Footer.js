@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-// import Home from '../page'
-// import AboutUs from '../aboutus/page'
-// import Events from '../events/page'
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
 
@@ -11,14 +12,14 @@ const Footer = () => {
                 {/* parent container for the footer */}
                 <div className='w-screen py-5 bg-teritary flex flex-col '>
                     {/* div parent for icons and page lists */}
+                    <ul className='flex text-primary justify-center gap-3 text-2xl '>
                     
-                    <ul className='flex text-primary justify-center gap-3'>
-                        <li>Facebook</li>
-                        <li>Instagram</li>
-                        <li>TikTok</li>
-                        <li>Youtube</li>
+                        <li><FaFacebook/></li>
+                        <li><FaInstagram/></li>
+                        <li><FaTiktok/></li>
+                        <li><FaYoutube/></li>
                     </ul>
-                    <ul className='flex justify-center gap-3 mt-2 text-primary mb-4'>
+                    <ul className='flex justify-center gap-5 mt-2 text-primary mb-4 text-lg font-smalltext '>
                         <li><Link href='/'>Home</Link></li>
                         <li><Link href='../aboutus'>Events</Link></li>
                         <li><Link href='../events'>About Us</Link></li>
