@@ -14,7 +14,7 @@ module.exports = {
       },
       fontFamily: {
         smalltext: ['Inter', 'sans-serif'],
-        bigtext: ['MontseRRat', 'sans-serif'],
+        bigtext: ['Montserrat', 'sans-serif'],
       },
     },
   },
