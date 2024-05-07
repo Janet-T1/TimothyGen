@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import friends from "../../../public/images/friends.jpg";
 
-const Card = ({ title, description, imageUrl }) => {
+const Card = ({ title, description, imageUrl, }) => {
   return (
     // the div that wraps the entire component
     <div className="overflow-hidden rounded-md hover:-translate-y-1 transition-transform hover:rounded-md hover:shadow-xl">
@@ -18,8 +17,8 @@ const Card = ({ title, description, imageUrl }) => {
         </div>
         {/* div for text inside the card*/}
         <div className="absolute -translate-y-20 font-smalltext text-red-300 font-bold pl-3">
-          <h2 className="sm:text-2xl text-lg">{title}</h2>
-          <h3 className="sm:text-md text:sm">{description}</h3>
+          <h2 className="sm:text-sm  md:text-lg lg:text-2xl text-lg ">{title}</h2>
+          <h3 className="sm:text-sm">{description}</h3>
         </div>
       </div>
     </div>
