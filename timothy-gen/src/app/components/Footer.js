@@ -8,7 +8,7 @@ import { FaYoutube } from "react-icons/fa6";
 const Footer = () => {
 
         return (
-            <div className=' bottom-0 absolute '>
+            <div className='bottom-0 fixed'>
                 {/* parent container for the footer */}
                 <div className='w-screen py-5 bg-teritary flex flex-col '>
                     {/* div parent for icons and page lists */}
