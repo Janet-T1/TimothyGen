@@ -8,7 +8,7 @@ import { FaYoutube } from "react-icons/fa6";
 const Footer = () => {
 
         return (
-            <div className='bottom-0 fixed'>
+            <div className='bottom-0 '>
                 {/* parent container for the footer */}
                 <div className='w-screen py-5 bg-teritary flex flex-col '>
                     {/* div parent for icons and page lists */}
@@ -25,7 +25,7 @@ const Footer = () => {
                         <li><Link href='../events'>About Us</Link></li>
                     </ul>
                     {/* div for copyright */}
-                    <div className='bg-primary text-secondary p-1 w-screen text-center sm:text-sm text-xs fixed bottom-0'>
+                    <div className='bg-primary text-secondary p-1 w-screen text-center sm:text-sm text-xs '>
                         <p>&copy; Timothy Generation, All rights reserved. </p>
                     </div>
                 </div>

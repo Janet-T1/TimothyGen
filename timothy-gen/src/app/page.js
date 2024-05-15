@@ -1,13 +1,47 @@
-import Footer from './components/Footer.js'
+
+// import styles from './page.module.css'
+// import Video from 'next-video';
+// import videoLoop from '../../videos/earth.mp4'
 import Cards from './cards/page.js'
+
+import bgVideo from './components/bgVideo.js'
+
+import Hero from './components/Hero'
+
 
 export default function Home() {
   return (
-    <main  className="flex min-h-screen flex-col items-center justify-between p-24">
-     
+    <div>
+      <Hero heading="Timothy Generation" message="Here to Impact, Uplift & Inspire the Youth of this Generation"/>
+      <Cards/>
+    </div>
+
+
+    // <main  className="flex min-h-screen flex-col items-center justify-between p-24">
+
+        
+
+    //       <Hero/>
+    //       <Cards/>
+
+        
+
+
+
+        
+        
     
-    <Cards/>
-  
-    </main>
+      
+    //   {/* <Video
+    //     src={videoLoop}
+    //     autoPlay 
+    //     muted
+    //     loop
+    //     playsInline
+    //     controls={false}
+    //     className={styles.video}
+    //   ></Video> */}
+
+    // </main>
   );
 }
